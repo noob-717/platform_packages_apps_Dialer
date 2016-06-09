@@ -86,7 +86,6 @@ public class DialerSettingsActivity extends AppCompatPreferenceActivity {
 
         final Header lookupSettingsHeader = new Header();
         lookupSettingsHeader.titleRes = R.string.lookup_settings_label;
-        lookupSettingsHeader.summaryRes = R.string.lookup_settings_description;
         lookupSettingsHeader.fragment = LookupSettingsFragment.class.getName();
         target.add(lookupSettingsHeader);
 
